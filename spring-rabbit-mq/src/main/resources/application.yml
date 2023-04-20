@@ -1,0 +1,15 @@
+rabbitmq.queue.name: thaotv
+rabbitmq.exchange.name: thaotv_exchange
+rabbitmq.routing.key: thaotv_routing_key
+
+rabbitmq.queue.json.name: json_queue
+rabbitmq.exchange.json.name: json_exchange
+rabbitmq.routing.json.key: json_routing_key
+
+spring:
+  rabbitmq:
+    addresses: amqps://xweioowe:yG_Vq00k9X_AVTyrZ0f42eahJ-NezsbF@armadillo.rmq.cloudamqp.com/xweioowe
+#    host: localhost
+#    port: 5672
+#    username: admin
+#    password: 123456
